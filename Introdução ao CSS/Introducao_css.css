@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(45, 100, 82);
+
+
+}
+
+
+h1 {
+color: rgb(125, 125, 222);
+font-family: Helvetica, Arial, sans-serif; /* a primeira tentativa do browser vai ser helvetica, mas se por um 
+acaso quem abrir a página não tiver ela baixada/na máquina ai não abre por isso se 
+coloca mais opções como Arial e sans-serif(sem serifa, que seria meio que uma curvinha ao final da letra)*/
+font-size: 40px ;
+
+}
+
+h2 {
+font-size: 30px;
+font-style:oblique;
+text-decoration:underline;
+
+/* geralmente se usa a font-style: normal ou italic, a diferença do italic pro oblique é que 
+o italiz usa a fonte itálico e o oblique só rotaliza a fonte, raramente usada e alguns browsers
+nem veem diferença entre elas */
+
+
+}
+
+h3 {
+font-size: 20px;
+text-transform: capitalize; /* capitalize todas as primeiras letras do texto entra com a letra
+maiúscula */
+text-align: center;
+font-weight: normal; /* limpa o negrito que vem naturalmente com os h, ou/e coloca negrito
+ afins */
+}
+
+p {
+    font-size: 15px;
+    text-align: left; /* raramente usa justify por que pode causar alterações na leitura da
+    página, causando um espaço maior entre as palavras quando minimiza e arrasta para o lado para ficar o menor possível. 
+    No brasil se lê da esquerda p/ a direira entt o text-align ficaria left*/
+    text-indent: 28px; /*coloca um espaço no inicio de cada parágrafo. */
+    color: whitesmoke; 
+    font-variant: normal; /* Tem normal e small caps: deixa as letras TODAS maiuscúlas e varia
+    de acordo com o tamanho da letra quando escrito (maiuscula ou minúscula) */
+
+}
+
+a {
+text-decoration: none;
+color:beige;
+
+}
